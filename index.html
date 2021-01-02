@@ -37,10 +37,10 @@
     <meta name="robots" content="follow" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Text to Handwriting" />
-    <meta
+<!--    <meta
       property="og:url"
       content="https://saurabhdaware.github.io/text-to-handwriting"
-    />
+    /> -->
     <meta
       property="og:description"
       content="I hate writing assignments so I made this tool that converts text to an image that looks like handwriting. You can copy paste text content into the textbox and click generate image button to generate image. Text to Handwriting"
@@ -90,7 +90,7 @@
 	  <!-- Load Fonts -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto|Caveat|Liu+Jian+Mao+Cao&display=swap"
+      href="https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto|Caveat|Liu+Jian+Mao+Cao|Long+Cang&display=swap"
     />
 
     <!-- CSS -->
@@ -125,14 +125,14 @@
         <div>
           Hey everyone! Thank you for supporting Text to Handwriting 🎉
           <ul class="info-ul">
-            <li>
+     <!--       <li>
               If you want to use additional fonts, you can check out comments in
               <a
                 href="https://github.com/saurabhdaware/text-to-handwriting/issues/78"
                 >text-to-handwriting issue#78</a
               >. After downloading the .ttf or .otf file of font, you can import
               it with "Upload your Handwriting Font" button.
-            </li>
+            </li>-->
             <li>
               I made this tool for fun and didn't expect the response I'm
               getting right now. Since this tool is not my full-time job, I may
@@ -238,6 +238,15 @@
                         value="'Liu Jian Mao Cao', cursive"
                       >
                         Liu Jian Mao Cao
+                      </option>
+                      <option
+                              style="
+                          font-family: 'Liu Jian Mao Cao';
+                          font-size: 13pt;
+                        "
+                              value="'Long Cang', cursive"
+                      >
+                        Long Cang
                       </option>
                     </select>
                   </div>
@@ -420,7 +429,7 @@
           </button>
         </div>
       </section>
-
+<!--
       <section id="how-to-add-handwriting">
         <h2>🤓 Guide to add your own handwriting</h2>
         <div>
@@ -542,7 +551,7 @@
       ~ Saurabh (<a href="https://saurabhdaware.in">https://saurabhdaware.in</a
       >)
     </footer>
-
+-->
     <!-- Fixed Elements -->
     <section class="draw-container popup-container">
       <button class="close-button">&times;</button>
@@ -564,7 +573,7 @@
             id="draw-download-button"
             style="margin-top: 5px; margin-bottom: 5px;"
           >
-            Download Image
+        Download Image
           </button>
           <br /><br />
           <input
@@ -586,7 +595,7 @@
       </div>
     </section>
     <!-- GitHub Corner logo -->
-    <a
+<!--    <a
       tabindex="0"
       href="https://github.com/saurabhdaware/text-to-handwriting"
       rel="noopener noreferrer"
@@ -621,6 +630,7 @@
           class="octo-body"
         ></path>
       </svg>
+-->
     </a>
 
     <script
