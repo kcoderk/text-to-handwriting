@@ -34,12 +34,12 @@ body.dark {
 
 @font-face {
   font-family: 'yingbixingshu';
-  src: url(../fonts/陈继世-硬笔行书.ttf);
+  src: url(../fonts/yingbixingshu.ttf);
 }
 
 @font-face {
   font-family: 'hanti';
-  src: url(../fonts/汉体.ttf);
+  src: url(../fonts/hanti.ttf);
 }
 /* Default CSS Changes */
 * {
