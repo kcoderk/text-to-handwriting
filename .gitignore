@@ -3,3 +3,4 @@ node_modules/
 .npmrc
 .idea/
 .DS_Store
+text-to-handwriting.iml
