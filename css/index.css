@@ -32,6 +32,15 @@ body.dark {
   src: url(../fonts/Hindi_Type.ttf);
 }
 
+@font-face {
+  font-family: '硬笔行书';
+  src: url(../fonts/陈继世-硬笔行书.ttf);
+}
+
+@font-face {
+  font-family: '汉体';
+  src: url(../fonts/汉体.ttf);
+}
 /* Default CSS Changes */
 * {
   box-sizing: border-box;
